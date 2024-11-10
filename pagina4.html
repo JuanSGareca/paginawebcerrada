@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML, CSS y JavaScript</title>
+    <link rel="stylesheet" href="css/estilos-pag4.css">
+</head>
+<div class="contenedor">
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav">Inicio</a>
+        <a href="pagina1.html" class="nav">HTML</a>
+        <a href="pagina3.html" class="nav">CSS</a>
+    </nav>
+    <header>
+        <h1>CSS Avanzado: Layouts y Responsividad</h1>
+    </header>
+<br>
+<div class="cuerpo2">
+    <h2>Introducción a Layouts en CSS</h2>
+    <p>Los layouts en CSS permiten organizar los elementos de una página de manera estructurada y eficiente. Con el uso de herramientas avanzadas como CSS Grid y Flexbox, es posible crear diseños complejos que se adaptan a distintas resoluciones de pantalla, mejorando la experiencia del usuario en diversos dispositivos.</p>
+</div>
+<br>
+<div class="cuerpo3">
+    <h2>CSS Grid</h2>
+    <p>CSS Grid es una herramienta de diseño en dos dimensiones (filas y columnas) que facilita la creación de layouts flexibles y organizados. Con Grid, puedes dividir el espacio de la página en áreas, alinearlas y ajustarlas fácilmente, lo que es ideal para construir layouts complejos.</p>
+</div>
+<br>
+<div class="cuerpo3">
+    <h2>Ejemplo básico de CSS Grid:</h2>
+    <ul>
+        <li>Dividir una página en un header, main content y footer es mucho más fácil con Grid, ya que permite asignar áreas específicas para cada sección.</li>
+    </ul>
+</div>
+<br>
+<div class="grid">
+    <header class="grid-item header">Header</header>
+    <main class="grid-item main-content">Main Content</main>
+    <footer class="grid-item footer">Footer</footer>
+</div>
+<br>
+<div class="cuerpo2">
+    <h2>Flexbox</h2>
+    <p>Flexbox es ideal para crear layouts unidimensionales (horizontales o verticales). Su principal ventaja es la flexibilidad en la distribución del espacio, adaptándose automáticamente al tamaño de los elementos y contenedores. Es especialmente útil para alinear contenido en una sola dirección, ya sea en filas o columnas.</p>
+</div>  
+<br>
+<div class="cuerpo2">
+    <h2>Diseño Responsivo</h2>
+    <p>La responsividad es esencial en el diseño moderno, ya que asegura que el sitio web se adapte a distintos tamaños de pantalla y dispositivos. Utilizando unidades flexibles, como porcentajes o vw/vh, y reglas condicionales (@media queries), puedes optimizar el layout para móviles, tablets y monitores de escritorio.</p>
+</div>  
+<br>
+<div class="cuerpo3">
+    <h2>Ejemplo de Layout Responsivo</h2>
+    <p>Para crear un layout responsivo, CSS ofrece diferentes estrategias:</p>
+    <ul>
+        <li>Media Queries: Permiten ajustar el estilo basado en el ancho del dispositivo. Por ejemplo, puedes reorganizar las columnas en una sola fila en pantallas más pequeñas.</li>
+        <li>Diseño Fluido: Utilizar unidades relativas en vez de píxeles permite que los elementos se escalen naturalmente al tamaño de pantalla.</li>
+    </ul>
+</div>
+<div class="cuerpo3">
+    <h2>Ejemplo de tabla de diseño responsivo usando CSS Grid</h2>
+</div>
+    <div class="grid-layout">
+        <div class="grid-header">Header - Menú principal</div>
+        <div class="grid-main">Main - Contenido</div>
+        <div class="grid-sidebar">Sidebar - Menú lateral</div>
+        <div class="grid-footer">Footer - Información</div>
+    </div>
+    <table class="responsive-table">
+        <thead>
+            <tr>
+                <th>Área</th>
+                <th>Elemento</th>
+                <th>Responsividad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Header</td>
+                <td>Menú principal</td>
+                <td>Se colapsa en móvil</td>
+            </tr>
+            <tr>
+                <td>Main</td>
+                <td>Contenido</td>
+                <td>Columnas o filas según pantalla</td>
+            </tr>
+            <tr>
+                <td>Sidebar</td>
+                <td>Menú lateral</td>
+                <td>Se esconde en móvil</td>
+            </tr>
+            <tr>
+                <td>Footer</td>
+                <td>Información</td>
+                <td>Alineación al centro</td>
+            </tr>
+        </tbody>
+    </table>    
+<br>
+<footer>
+    <p>&copy; 2024. Pagina creada por Gareca, Juan Saul<p>
+    <ul>
+      <li><a href="https://www.facebook.com/juan.gareca.9">Facebook</a></li>
+      <li><a href="https://www.instagram.com/gareca.js/">Instagram</a></li>
+  </ul>
+</footer>
+</body>
+</div>
+</html>
